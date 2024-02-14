@@ -1,0 +1,1171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:ital,wght@0,500;1,400&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.banner {
+    max-width: 1321px;
+    max-height: 641px;
+    background-color: #161616;
+    display: flex;
+    margin: auto;
+    color: #FFFFFF;
+    border-radius: 30px;
+    margin-top: 50px;
+
+}
+
+.cover-text {
+    width: 531px;
+    height: 424px;
+    padding: 60px 0 50px 80px;
+}
+
+.cover-text h1 {
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.cover-text p {
+    width: 436px;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+.watch-live {
+    text-decoration: none;
+    border: solid 1px #DD0000;
+    border-radius: 5px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 16px 59px 16px 25px;
+
+}
+
+#right-arro {
+    color: #FFFFFF;
+    margin-left: -43px;
+}
+
+.marsalo {
+    width: 578px;
+
+    padding: 33px 79px 0 66px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --background-color: #DD0000;
+    --accent-color: #0af;
+}
+
+/* --------------------------
+Cover CSS Area Started Here 
+----------------------------*/
+.cover-area {
+    width: 1550px;
+    height: 750px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: #161616;
+    border-radius: 30px;
+}
+
+.text-img-cover {
+    display: flex;
+}
+
+h1.cover-title {
+    font-size: 70px;
+    line-height: 110px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-left: 105px;
+    margin-top: 140px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cover-title-only-use-mobile {
+    display: none;
+}
+
+
+p.cover-p-text {
+    margin-top: 20px;
+    color: #ffffff;
+    margin-left: 105px;
+    line-height: 30px;
+}
+
+.cover-p-text-two {
+    display: none;
+}
+
+.btn {
+    background-color: var(--background-color);
+    color: white;
+    padding: 1em 2em;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-left: 105px;
+    border: none;
+    outline: none;
+    margin-top: 60px;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn.btn-background-slide::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: var(--accent-color);
+
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.btn.btn-background-slide:hover::before,
+.btn.btn-background-slide:focus::before {
+    transform: scaleX(1);
+}
+
+.btn.btn-background-slide {
+    z-index: 1;
+}
+
+.btn.btn-background-slide:hover,
+.btn.btn-background-slide:focus {
+    color: white;
+}
+
+
+i#chev-control {
+    font-size: 20px;
+    padding-left: 9px;
+}
+
+.chev-extra {
+    display: none;
+}
+
+.cover-img>img {
+    width: 660px;
+    margin-top: 55px;
+    margin-right: 100px;
+}
+
+/* --------------------------
+Cover CSS Area Ended Here 
+----------------------------*/
+
+
+/* --------------------------
+Blog CSS Area Started Here 
+----------------------------*/
+
+.blog-main-content {
+    position: relative;
+}
+
+.blogs {
+    width: 1000px;
+    margin-left: 595px;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.blog {
+    width: 350px;
+    height: 390px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    overflow: hidden;
+}
+
+.blog-img>img {
+    width: 350px;
+    height: 200px;
+}
+
+.blog-details {
+    margin-left: 20px;
+}
+
+button.transfer {
+    width: 100px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+h2.blog-title {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.blogs-icon {
+    display: flex;
+    margin-top: 20px;
+}
+
+.time {
+    margin-right: 40px;
+}
+
+span.hour {
+    margin-left: 10px;
+}
+
+span.cmt-num {
+    margin-left: 10px;
+}
+
+.view-all {
+    display: none;
+}
+
+.match-list {
+    position: absolute;
+    top: 0;
+    left: 180px;
+    border-radius: 10px;
+    width: 360px;
+    height: 350px;
+    background: #161616;
+}
+
+.a-color-1 {
+    text-decoration: none;
+    color: #161616;
+}
+
+.a-color-2 {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h5.upcaming-match-text {
+    color: #ffffff;
+    width: 251px;
+    height: 65px;
+    background: white;
+    text-align: center;
+    margin-top: -146px;
+    border-radius: 10px;
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+h5.all-group-text {
+    color: #ffffff;
+    width: 251px;
+    height: 65px;
+    background: white;
+    text-align: center;
+    margin-top: -146px;
+    border-radius: 10px;
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+h5.blog-text {
+    color: #ffffff;
+    width: 251px;
+    height: 65px;
+    background: #DD0000;
+    text-align: center;
+    margin-top: -146px;
+    border-radius: 10px;
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.match-list {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+/* --------------------------
+Blog CSS Area Started Ended 
+----------------------------*/
+
+
+/* --------------------------
+Footer CSS Area Started Here 
+----------------------------*/
+
+footer.footer-area {
+    /* height: 420px; */
+    background: #161616;
+    margin-top: 130px;
+}
+
+h1.goal {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 100px;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer-nav>li {
+    list-style: none;
+}
+
+.footer-nav>li>a {
+    text-decoration: none;
+    margin-left: 63px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #B9B9B9;
+}
+
+/* --------------------------
+Footer CSS Area Ended Here 
+----------------------------*/
+
+
+
+/* ----------------------------------
+Up Coming Match CSS Area Started Here 
+-------------------------------------*/
+
+.matches {
+    width: 1150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 150px;
+    margin-left: 575px;
+}
+
+.match {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+    overflow: hidden;
+}
+
+img.flag-img {
+    width: 110px;
+    height: 62px;
+}
+
+.match-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h2.match-title {
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.match-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.match-details {
+    margin-top: 20px;
+}
+
+/* ----------------------------------
+Up Coming Match CSS Area Ended Here 
+-------------------------------------*/
+
+/* -----------------------------------------
+Up Coming Match Timing CSS Area started Here 
+--------------------------------------------*/
+
+h5.upcaming-match-text-two {
+    width: 251px;
+    height: 65px;
+    background: #DD0000;
+    text-align: center;
+    margin-top: -146px;
+    border-radius: 10px;
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+h5.all-group-text-two {
+    width: 251px;
+    height: 65px;
+    background: white;
+    text-align: center;
+    margin-top: -146px;
+    border-radius: 10px;
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+h5.blog-text-two {
+    width: 251px;
+    height: 65px;
+    background: white;
+    text-align: center;
+    margin-top: -146px;
+    border-radius: 10px;
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.a-color-1-two {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.a-color-2-two {
+    text-decoration: none;
+    color: #161616;
+}
+
+/* ---------------------------------------
+Up Coming Match Timing CSS Area Ended Here 
+------------------------------------------*/
+
+
+/* ---------------------------------
+Grouping Match CSS Area Started Here 
+------------------------------------*/
+
+.groups {
+    width: 1030px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 150px;
+    margin-left: 695px;
+}
+
+.group {
+    width: 310px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+    overflow: hidden;
+}
+
+.first-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+}
+
+h1.main-group-title {
+    margin-left: 46px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2.group-title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.customize-flag-1 {
+    margin-left: -6px;
+}
+
+.customize-flag-2 {
+    margin-left: -46px;
+}
+
+.customize-flag-3 {
+    margin-left: -42px;
+}
+
+/* -------------------------------
+Grouping Match CSS Area ended Here 
+----------------------------------*/
+
+/*--------------------------------
+Grouping Side bar CSS Here Started
+----------------------------------*/
+
+h5.upcaming-match-text-three {
+    width: 251px;
+    height: 65px;
+    background: #ffffff;
+    text-align: center;
+    margin-top: -146px;
+    border-radius: 10px;
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+h5.all-group-text-three {
+    width: 251px;
+    height: 65px;
+    background: #DD0000;
+    text-align: center;
+    margin-top: -146px;
+    border-radius: 10px;
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+h5.blog-text-three {
+    width: 251px;
+    height: 65px;
+    background: white;
+    text-align: center;
+    margin-top: -146px;
+    border-radius: 10px;
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.a-color-three-2 {
+    text-decoration: none;
+    color: #161616;
+}
+
+.a-color-three-1 {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.social-link>p {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: white;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+}
+
+.social-link>p>i {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+#instagram {
+    color: #B4289E;
+}
+
+#facebook {
+    color: #1873EB;
+}
+
+#twitter {
+    color: #1C9CEA;
+}
+
+/*------------------------------
+Grouping Side bar CSS Here Ended
+--------------------------------*/
+
+
+/*---------------------------------
+Tablet Responsive Code Started Here 
+-----------------------------------*/
+
+@media only screen and (min-width: 668px) and (max-width: 992px) {
+    .cover-area {
+        width: 1400px;
+        margin-left: 80px;
+        margin-top: 80px;
+    }
+
+    .cover-p-text {
+        display: none;
+    }
+
+    .cover-p-text-two {
+        display: block;
+        color: #ffffff;
+        font-size: 25px;
+        line-height: 47px;
+        font-weight: 400;
+        margin-left: 110px;
+        margin-top: 10px;
+        margin-bottom: -15px;
+    }
+
+    .cover-img {
+        margin-right: -60px;
+    }
+
+    .cover-text {
+        margin-top: -47px;
+    }
+
+    .blogs,
+    .matches {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 104px;
+        padding-top: 60px;
+    }
+
+    .groups {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10px;
+        padding-top: 60px;
+    }
+
+    .blog {
+        width: 650px;
+        height: 750px;
+    }
+
+    .group {
+        width: 600px;
+        height: 685px;
+        margin-left: 100px;
+    }
+
+    .group-img>img {
+        width: 200px;
+    }
+
+    .main-group-title {
+        font-size: 35px;
+        padding-left: 45px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    h2.group-title {
+        font-size: 22px;
+    }
+
+    .match {
+        width: 500px;
+        height: 300px;
+        margin-left: 100px;
+    }
+
+    .match-details {
+        margin-top: 60px;
+    }
+
+    h5.all-group-text-two {
+        border: 2px solid black;
+    }
+
+    h5.blog-text-two {
+        border: 2px solid black;
+    }
+
+    button.transfer {
+        width: 210px;
+        height: 60px;
+        font-size: 25px;
+        border: 2px solid black;
+        font-weight: 600;
+        border-radius: 5px;
+        margin-top: 35px;
+    }
+
+    h2.blog-title {
+        font-size: 35px;
+        line-height: 45px;
+        margin-top: 30px;
+    }
+
+    .time,
+    .comment {
+        font-size: 35px;
+    }
+
+    .blog:last-child {
+        display: none;
+    }
+
+    .match:last-child {
+        display: none;
+    }
+
+    .group:last-child {
+        display: none;
+    }
+
+    .blog-img>img {
+        width: 652px;
+        height: 400px;
+    }
+
+    .match-list {
+        width: 1380px;
+        flex-direction: row;
+        background: none;
+        margin-top: -200px;
+        margin-left: -95px;
+    }
+
+    .upcaming-match-text,
+    .all-group-text {
+        border: 1px solid black;
+    }
+
+    .match-list>h5 {
+        width: 396px;
+        height: 80px;
+        margin-left: 70px;
+        margin-right: 80px;
+        font-size: 30px;
+        line-height: 43px;
+    }
+
+    .match-list>h5>a {
+        font-weight: 600;
+    }
+
+    .view-all {
+        display: block;
+        width: 200px;
+        height: 70px;
+        background: #DD0000;
+        color: #ffffff;
+        font-size: 35px;
+        line-height: 23px;
+        font-weight: 400;
+        border: none;
+        margin-top: 50px;
+        border-radius: 5px;
+        margin-left: 675px;
+    }
+
+    .footer-area {
+        width: 1560px;
+    }
+
+    .footer-nav {
+        width: 1500px;
+        flex-wrap: wrap;
+    }
+
+    .footer-nav>li>a {
+        font-size: 38px;
+        line-height: 70px;
+    }
+
+    .social-link {
+        padding-bottom: 90px;
+        background: #161616;
+        margin-top: -25px;
+        padding-top: 30px;
+    }
+
+    .social-link>p {
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+    }
+
+    .social-link>p>i {
+        margin-top: 11px;
+        font-size: 40px;
+    }
+
+}
+
+/*---------------------------------
+Tablet Responsive Code Ended Here 
+-----------------------------------*/
+
+
+@media only screen and (max-width: 668px) {
+
+    body {
+        height: 100vh;
+    }
+
+    .cover-area {
+        width: 1350px;
+        height: 1600px;
+        margin-left: 122px;
+        margin-top: 115px;
+        overflow: hidden;
+    }
+
+    h1.cover-title-only-use-mobile {
+        display: block;
+        font-size: 85px;
+        color: white;
+        text-align: center;
+        margin-top: 170px;
+    }
+
+    .cover-p-text-two {
+        margin-top: 35px;
+        display: block;
+        font-size: 40px;
+        color: white;
+        line-height: 100px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .cover-img>img {
+        width: 50%;
+        margin-left: 365px;
+        margin-top: 43px;
+    }
+
+    .text-img-cover {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 450px;
+        height: 140px;
+        margin-left: 455px;
+        font-size: 44px;
+        border-radius: 10px;
+    }
+
+    .chev-extra {
+        color: white;
+        font-size: 40px;
+        margin-left: -87px;
+        position: absolute;
+        margin-top: 103px;
+        z-index: 1;
+    }
+
+
+    .match-list {
+        position: absolute;
+        background: none;
+        margin-left: 405px;
+        margin-top: -1070px;
+    }
+
+    h5.upcaming-match-text {
+        width: 750px;
+        height: 170px;
+        border: 2px solid black;
+        padding-top: 65px;
+        font-size: 60px;
+        font-weight: 600;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+    h5.all-group-text {
+        position: absolute;
+        width: 750px;
+        height: 170px;
+        border: 2px solid black;
+        padding-top: 67px;
+        font-size: 60px;
+        font-weight: 600;
+        border-radius: 10px;
+        margin-top: 490px;
+    }
+
+    h5.blog-text {
+        position: absolute;
+        margin-top: 965px;
+        width: 750px;
+        height: 170px;
+        padding-top: 67px;
+        font-size: 60px;
+        font-weight: 600;
+        border-radius: 10px;
+    }
+
+    .groups,
+    .matches,
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 1000px;
+    }
+
+    .blog {
+        width: 1374px;
+        height: 1370px;
+        margin-left: -487px;
+        border-radius: 30px;
+        margin-top: 35px;
+    }
+
+    .match {
+        width: 1374px;
+        height: 770px;
+        margin-left: -487px;
+        padding-top: 45px;
+        border-radius: 30px;
+        margin-top: 35px;
+        border: 1px solid gray;
+    }
+
+    .group {
+        width: 1290px;
+        height: 1650px;
+        margin-left: -487px;
+        padding-top: 45px;
+        border-radius: 30px;
+        margin-top: 35px;
+        border: 1px solid gray;
+    }
+
+    .main-group-title {
+        font-size: 100px;
+        padding-left: 70px;
+    }
+
+    h2.group-title {
+        font-size: 70px;
+    }
+
+    .first-group {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 70px;
+    }
+
+    .group-img>img {
+        width: 430px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    #chev-control {
+        display: none;
+    }
+
+    .social-link {
+        display: none;
+    }
+
+    h1.cover-title {
+        display: none;
+    }
+
+    .cover-p-text {
+        display: none;
+    }
+
+    .blog-img>img {
+        width: 1374px;
+        height: 750px;
+    }
+
+    .match-img>img {
+        width: 450px;
+        height: 250px;
+    }
+
+    .match-img>h2 {
+        font-size: 80px;
+    }
+
+    button.transfer {
+        width: 360px;
+        height: 100px;
+        font-size: 50px;
+        border: 2px solid black;
+        font-weight: 600;
+        border-radius: 5px;
+        margin-top: 70px;
+    }
+
+
+    h2.blog-title {
+        font-size: 70px;
+        line-height: 100px;
+        margin-top: 50px;
+    }
+
+    h2.match-title {
+        font-size: 90px;
+        line-height: 100px;
+        margin-top: 100px;
+    }
+
+    .match-icon {
+        margin-top: 60px;
+        font-size: 54px;
+    }
+
+    h5.upcaming-match-text-two {
+        width: 750px;
+        height: 170px;
+        padding-top: 65px;
+        font-size: 60px;
+        font-weight: 600;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+    h5.all-group-text-two {
+        position: absolute;
+        width: 750px;
+        height: 170px;
+        border: 2px solid black;
+        padding-top: 67px;
+        font-size: 60px;
+        font-weight: 600;
+        border-radius: 10px;
+        margin-top: 490px;
+    }
+
+    h5.blog-text-two {
+        position: absolute;
+        margin-top: 965px;
+        border: 2px solid black;
+        width: 750px;
+        height: 170px;
+        padding-top: 67px;
+        font-size: 60px;
+        font-weight: 600;
+        border-radius: 10px;
+    }
+
+    .blogs-icon {
+        margin-top: 30px;
+    }
+
+    .time,
+    .comment {
+        font-size: 60px;
+    }
+
+    .time {
+        margin-right: 100px;
+    }
+
+    .footer-area {
+        width: 1595px;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        align-items: center;
+        background: #161616;
+        margin-bottom: 30px;
+    }
+
+    .footer-nav>li {
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+
+    .footer-nav>li>a {
+        font-size: 50px;
+    }
+
+    h1.goal {
+        font-size: 100px;
+    }
+
+    h5.upcaming-match-text-three {
+        width: 750px;
+        height: 170px;
+        border: 2px solid black;
+        padding-top: 65px;
+        font-size: 60px;
+        font-weight: 600;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+    h5.all-group-text-three {
+        position: absolute;
+        width: 750px;
+        height: 170px;
+        padding-top: 67px;
+        font-size: 60px;
+        font-weight: 600;
+        border-radius: 10px;
+        margin-top: 490px;
+    }
+
+    h5.blog-text-three {
+        position: absolute;
+        margin-top: 965px;
+        width: 750px;
+        height: 170px;
+        padding-top: 67px;
+        font-size: 60px;
+        font-weight: 600;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+
+}
